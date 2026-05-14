@@ -7,7 +7,6 @@ CLAUDE.md
 apps/macos/.build/
 apps/macos/.swiftpm/
 apps/macos/Talkeo.app/
-apps/macos/TalkeoSelect.app/
 
 # Windows
 apps/windows/bin/
@@ -15,7 +14,6 @@ apps/windows/obj/
 apps/windows/.vs/
 
 # Editor / IDE
-.vscode/
 .idea/
 *.xcodeproj/
 *.xcworkspace/
@@ -25,7 +23,6 @@ apps/windows/.vs/
 .env.local
 *.key
 *.pem
-~/.config/talkeoselect.json
 ~/.config/talkeo.json
 
 # Build artifacts (general)
@@ -33,3 +30,7 @@ build/
 dist/
 out/
 node_modules/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
